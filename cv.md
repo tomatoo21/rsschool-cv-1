@@ -12,3 +12,4 @@ At the moment I am engaged in php development in the backend part. I am striving
 * HTML/CSS
 * JavaScript (basic)
 * Adobe Photoshop, Figma
+* Linux (I know the console a little)
