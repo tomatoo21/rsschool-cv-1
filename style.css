@@ -1,14 +1,3 @@
-:root {
-  --main-background-color: #ffffff;
-  --main-text-color: #495057;
-
-  --main-color: #f0ae12;
-  --white: #ffffff;
-  --gray: #f3f4f5;
-  --light-gray: #e1e1e1;
-  --orange: #d6932e;
-}
-
 /* -----ОБНУЛЕНИЕ--------------------------------------------------------------------------------------- */
 *{
   padding: 0;
@@ -50,6 +39,17 @@ img{vertical-align: top;}
 
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 
+/* -----ROOT   ----------------------------------------------------------------------------------------- */
+:root {
+  --main-background-color: #ffffff;
+  --main-text-color: #495057;
+
+  --main-color: #f0ae12;
+  --white: #ffffff;
+  --gray: #f3f4f5;
+  --light-gray: #e1e1e1;
+  --orange: #d6932e;
+}
 
 /* -----WRAPPER----------------------------------------------------------------------------------------- */
 .wrapper {
@@ -118,15 +118,44 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 }
 .body {}
 .body__text{
+  height: 408px;
   display: flex;
   justify-content: space-between;
 }
 .header__text-me {}
-.header__hello {}
-.header__surname {}
-.header__first-name {}
-.header__abilities {}
-.header__image-me {}
+.header__hello {
+  font-weight: 600;
+  line-height: 120%;
+  margin: 57px 0 0 0;
+}
+.header__surname {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 122%;
+  margin: 14px 0 0 0;
+}
+.header__first-name {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 122%;
+  margin: 14px 0 0 136px;
+}
+.header__abilities {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 120%;
+  margin: 50px 0 0 0;
+}
+.header__abilities span {
+  color: #C8945D;
+}
+.header__image-me {
+  display: flex;
+  align-items: flex-end;
+}
+.header__image-me img {
+  height: 349px;
+}
 .header__burger {}
 
 /* -----MAIN-------------------------------------------------------------------------------------------- */
