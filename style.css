@@ -73,6 +73,24 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
   top: 0;
   left: 0;
 }
+.header__container {}
+.header__menu {}
+.header__logo {}
+.logo {}
+.logo__link {}
+.header__nav {}
+.nav {}
+.nav__items {}
+.nav__item {}
+.nav__link {}
+.header__body {}
+.header__text-me {}
+.header__hello {}
+.header__surname {}
+.header__first-name {}
+.header__abilities {}
+.header__image-me {}
+.header__burger {}
 
 /* -----MAIN-------------------------------------------------------------------------------------------- */
 .main {
