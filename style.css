@@ -30,7 +30,7 @@ html,body{
   width: 100%;
   line-height: 1;
   font-family: 'Montserrat', sans-serif;
-  font-size: 14px;
+  font-size: 24px;
   color: var(--main-text-color);
   background-color: var(--main-background-color);
   font-weight: 400;
@@ -67,5 +67,49 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
   box-sizing: content-box;
 }
 
+/* -----HEADER------------------------------------------------------------------------------------------ */
+.header {
+  width: 100%;
+  top: 0;
+  left: 0;
+}
 
+/* -----MAIN-------------------------------------------------------------------------------------------- */
+.main {
+  display: flex;
+  flex: 1 1 auto;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
 
+/* -----PAGINATION-------------------------------------------------------------------------------------- */
+.main__pagination {
+  height: 34px;
+}
+.pagination a {
+  font-weight: 500;
+  /* color: black; */
+  float: left;
+  /* padding: 8px 16px; */
+  padding: 6px 12px;
+  margin:0px 1px;
+  text-decoration: none;
+  border:1px solid #CED4DA;
+  transition: background-color .3s;
+}
+.pagination a.active {
+  /* background-color: #d7bb6c; */
+  background-color: #F7931E;
+  color: white;
+}
+.pagination a:hover:not(.active) {
+  background-color: #d4d5d2;
+}
+
+/* -----FOOTER------------------------------------------------------------------------------------------ */
+.footer {
+  width: 100%;
+  top: 0;
+  left: 0;
+}
