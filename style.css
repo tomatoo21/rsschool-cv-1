@@ -74,16 +74,53 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
   left: 0;
 }
 .header__container {}
-.header__menu {}
+.header__menu {
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 .header__logo {}
 .logo {}
 .logo__link {}
+.logo__link img {}
 .header__nav {}
 .nav {}
-.nav__items {}
-.nav__item {}
+.nav__items {
+  display: flex;
+}
+.nav__item {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 125%;
+}
+.nav__item:not(:last-child) {
+  margin: 0 40px 0 0;
+}
 .nav__link {}
-.header__body {}
+.nav__link:after {
+  background-color: #C8945D;
+  display: block;
+  content: "";
+  height: 3px;
+  width: 0%;
+  -webkit-transition: width .3s ease-in-out;
+  -moz--transition: width .3s ease-in-out;
+  transition: width .3s ease-in-out;
+}
+.nav__link:hover:after,
+.nav__link:focus:after {
+  width: 100%;  
+}
+.header__body {
+  background-color: #F3F4F5;
+  border: 1px solid #C8945D;
+}
+.body {}
+.body__text{
+  display: flex;
+  justify-content: space-between;
+}
 .header__text-me {}
 .header__hello {}
 .header__surname {}
