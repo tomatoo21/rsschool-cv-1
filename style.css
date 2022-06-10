@@ -1,22 +1,24 @@
 :root {
-   --main-color: #f0ae12;
-   --text-color: #363636;
-   --white: #ffffff;
-   --gray: #f3f4f5;
-   --light-gray: #e1e1e1;
-   --orange: #d6932e;
+  --main-background-color: #ffffff;
+  --main-text-color: #495057;
+
+  --main-color: #f0ae12;
+  --white: #ffffff;
+  --gray: #f3f4f5;
+  --light-gray: #e1e1e1;
+  --orange: #d6932e;
 }
 
 /* -----ОБНУЛЕНИЕ--------------------------------------------------------------------------------------- */
 *{
-   padding: 0;
-   margin: 0;
-   border: 0;
+  padding: 0;
+  margin: 0;
+  border: 0;
 }
 *,*::before,*::after{
-   -moz-box-sizing: border-box;
-   -webkit-box-sizing: border-box;
-   box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
 :focus,:active{outline: none;}
 a:focus,a:active{outline: none;}
@@ -24,16 +26,17 @@ a:focus,a:active{outline: none;}
 header,nav,main,footer,section,aside{display: block;}
 
 html,body{
-   height: 100%;
-   width: 100%;
-   line-height: 1;
-   font-family: 'Montserrat', sans-serif;
-   font-size: 14px;
-   color: #495057;
-   font-weight: 400;
-   -ms-text-size-adjust: 100%;
-   -moz-text-size-adjust: 100%;
-   -webkit-text-size-adjust: 100%;
+  height: 100%;
+  width: 100%;
+  line-height: 1;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  color: var(--main-text-color);
+  background-color: var(--main-background-color);
+  font-weight: 400;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
 }
 a,input,button,textarea{font-family:inherit;color:inherit;}
 
@@ -50,8 +53,19 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 
 /* -----WRAPPER----------------------------------------------------------------------------------------- */
 .wrapper {
-   min-height: 100%;
-   overflow: hidden;
-   display: flex;
-   flex-direction: column;
+  min-height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
 }
+
+/* -----TEH-CHAPTER------------------------------------------------------------------------------------- */
+[class*="__container"] {
+  max-width: 1024px;
+  padding: 0 15px;
+  margin: 0 auto;
+  box-sizing: content-box;
+}
+
+
+
