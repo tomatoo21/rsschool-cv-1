@@ -254,4 +254,33 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
   width: 100%;
   top: 0;
   left: 0;
+  background: #F3F4F5;
+  border-top: 1px solid #C8945D;
+  margin: 108px 0 0 0;
+}
+.footer__container {
+  /* height: 204px; */
+}
+.footer__items {
+  display: flex;
+  justify-content: center;
+  margin: 18px 0;
+}
+.footer__item {}
+.footer__item:not(:last-child) {
+  margin: 0 88px 0 0;
+}
+.footer__item img {
+  height: 103px;
+  opacity: 0.8;
+}
+.footer__item span.mdi-github {
+  font-size: 108px;
+}
+.footer__link {}
+.footer__copyright {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 121%;
+  text-align: center;
 }
