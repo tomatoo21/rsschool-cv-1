@@ -162,6 +162,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 /* -----MAIN-------------------------------------------------------------------------------------------- */
 .main {
   display: flex;
+  flex-direction: column;
   flex: 1 1 auto;
   width: 100%;
   top: 0;
@@ -200,11 +201,28 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
   font-weight: 500;
   line-height: 120%;
 }
+.content__item p:not(:last-child) {
+  margin: 0 0 8px 0;
+}
 .content__item:not(:last-child) {
   margin: 0 0 18px 0;
 }
-
-
+.content__subsection {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 121%;
+}
+.content__link {
+  border-bottom: 2px dashed #C8945D;
+}
+.content__points {
+  display: inline;
+}
+.content__code {
+  background-color: #F7F9FA;
+  white-space: pre;
+  margin: 14px 0;
+}
 
 
 /* -----PAGINATION-------------------------------------------------------------------------------------- */
