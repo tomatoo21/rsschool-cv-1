@@ -157,7 +157,6 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 .header__image-me img {
   height: 349px;
 }
-.header__burger {}
 
 /* -----MAIN-------------------------------------------------------------------------------------------- */
 .main {
@@ -224,31 +223,6 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
   margin: 14px 0;
 }
 
-
-/* -----PAGINATION-------------------------------------------------------------------------------------- */
-.main__pagination {
-  height: 34px;
-}
-.pagination a {
-  font-weight: 500;
-  /* color: black; */
-  float: left;
-  /* padding: 8px 16px; */
-  padding: 6px 12px;
-  margin:0px 1px;
-  text-decoration: none;
-  border:1px solid #CED4DA;
-  transition: background-color .3s;
-}
-.pagination a.active {
-  /* background-color: #d7bb6c; */
-  background-color: #F7931E;
-  color: white;
-}
-.pagination a:hover:not(.active) {
-  background-color: #d4d5d2;
-}
-
 /* -----FOOTER------------------------------------------------------------------------------------------ */
 .footer {
   width: 100%;
@@ -284,3 +258,14 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
   line-height: 121%;
   text-align: center;
 }
+
+/* -----MEDIA------------------------------------------------------------------------------------------- */
+@media (max-width:1199.98px){
+  .logo__uncct-img{height:calc(42px + 49*((100vw - 768px)/432))}
+}
+@media (max-width:1023.98px){}
+@media (max-width:991.98px){}
+@media (max-width:767.98px){}
+@media (max-width:575.98px){}
+@media (max-width:479.98px){}
+@media (max-width:352px){}
