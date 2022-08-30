@@ -15,7 +15,7 @@ At the moment I am engaged in php development in the backend part. I am striving
 * Linux (I know the console a little)
 
 ## Code example
-[![](/img/large.svg)](https://www.codewars.com/users/koctia-rss)
+[![](https://www.codewars.com/users/koctia-rss/badges/large?logo=false)](https://www.codewars.com/users/koctia-rss)
 
 Multiply KATA from [codewars](https://www.codewars.com/kata/50654ddff44f800200000004)
 
