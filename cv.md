@@ -27,6 +27,12 @@ function multiply(a, b){
 }
 ```
 
+## Courses
+* [Подготовительный курс «JavaScript/Front-end. Stage 0» (2022)](https://rs.school/js-stage0/)
+* [HTML для начинающих](https://ru.code-basics.com/languages/html)
+* [CSS для начинающих](https://ru.code-basics.com/languages/css)
+* [JavaScript для начинающих](https://ru.code-basics.com/languages/javascript)
+
 ## Education
 Higher technical education
 
