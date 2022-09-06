@@ -1,1 +1,185 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Document</title></head><body></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+  <link href="https://cdn.materialdesignicons.com/6.4.95/css/materialdesignicons.min.css" rel="stylesheet">
+  <link rel="icon" href="img/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="wrapper">
+
+    <header class="header"> <!-- header -->
+      <div class="header__menu __container"> <!-- menu -->
+        <div class="header__logo logo"> <!-- logo -->
+          <a href="#" class="logo__link"><img src="./img/logo.svg" alt="logo"></a>
+        </div>
+        <nav class="header__nav nav"> <!-- nav -->
+          <ul class="nav__items">
+            <li class="nav__item"><a class="nav__link" href="#contacts">Contacts</a></li>
+            <li class="nav__item"><a class="nav__link" href="#about">About</a></li>
+            <li class="nav__item"><a class="nav__link" href="#skills">Skills</a></li>
+            <li class="nav__item"><a class="nav__link" href="#portfolio">Portfolio</a></li>
+            <li class="nav__item"><a class="nav__link" href="#education">Education</a></li>
+            <li class="nav__item"><a class="nav__link" href="#languages">Languages</a></li>
+          </ul>
+        </nav>
+        <div class="header__burger"><span></span></div>
+      </div>
+      <div class="header__body body"> <!-- body -->
+        <div class="body__text __container">
+          <div class="header__text-me">
+            <h3 class="header__hello">Hello, My Name is</h3>
+            <h2 class="header__surname">Moskvin</h2>
+            <h2 class="header__first-name">Konstantin</h2>
+            <h1 class="header__abilities"><span>—</span> Full Stack developer & A Creative Freelancer</h1>
+          </div>
+          <div class="header__image-me">
+            <img src="./img/avatar.png" alt="avatar">
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="main __container"> <!-- main -->
+
+      <section class="main__content content" id="contacts"> <!-- contacts -->
+        <div class="content__name"><span>#</span><h2>Contacts</h2></div>
+        <hr class="content__hr-line">
+          <ul class="content__items">
+            <li class="content__item"> <!-- email -->
+              <span class="mdi mdi-email-variant"></span>
+              <a href="mailto:mr.koctia@gmail.com" target="_blank">mr.koctia@gmail.com</a>
+            </li>
+            <li class="content__item"> <!-- discord -->
+              <span class="mdi mdi-discord"></span>
+              <a href="https://discordapp.com/users/@me/" target="_blank">Konstantin (@koctia)</a>
+            </li>
+            <li class="content__item"> <!-- github -->
+              <span class="mdi mdi-github"></span>
+              <a href="https://github.com/koctia" target="_blank">GitHub</a>
+            </li>
+          </ul>
+      </section>
+
+      <section class="main__content content" id="about"> <!-- about me -->
+        <div class="content__name"><span>#</span><h2>About me</h2></div>
+        <hr class="content__hr-line">
+        <div class="content__items">
+          <div class="content__item"> <!-- text -->
+            <span></span>
+            <p>At the moment I am engaged in php development in the backend part. I am striving to develop myself towards a full-stack developer, and for this I lack knowledge in the field of the frontend component, which eventually led me to this course at RS school.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="main__content content" id="skills"> <!-- skills -->
+        <div class="content__name"><span>#</span><h2>Skills</h2></div>
+        <hr class="content__hr-line">
+        <ul class="content__items">
+          <li class="content__item"> <!-- text -->
+            <span class="mdi mdi-check-all"></span>
+            <p class="content__points">PHP</p>
+          </li>
+          <li class="content__item"> <!-- text -->
+            <span class="mdi mdi-check-all"></span>
+            <p class="content__points">HTML/CSS</p>
+          </li>
+          <li class="content__item"> <!-- text -->
+            <span class="mdi mdi-check-all"></span>
+            <p class="content__points">JavaScript (basic)</p>
+          </li>
+          <li class="content__item"> <!-- text -->
+            <span class="mdi mdi-check-all"></span>
+            <p class="content__points">Adobe Photoshop, Figma</p>
+          </li>
+          <li class="content__item"> <!-- text -->
+            <span class="mdi mdi-check-all"></span>
+            <p class="content__points">Linux (I know the console a little)</p>
+          </li>
+        </ul>
+      </section>
+
+      <section class="main__content content" id="portfolio"> <!-- portfolio -->
+        <div class="content__name"><span>#</span><h2>Portfolio</h2></div>
+        <hr class="content__hr-line">
+        <div class="content__items">
+          <div class="content__subsection">Code example</div>
+          <div class="content__item"> <!-- text -->
+            <span></span>
+            <p>Sample code multiply KATA from <a class="content__link" href="https://www.codewars.com/kata/50654ddff44f800200000004" target="_blank">codewars</a></p>
+            <p>JavaScript:</p>
+            <div class="content__code">
+  <code>function multiply(a, b) {
+    return a * b;
+  }</code>
+            </div>
+          </div>
+          <div class="content__subsection">Completed projects</div>
+          <ul class="content__items"> <!-- text -->
+            <li class="content__item"> - <a class="content__link" href="https://koctia.github.io/rsschool-cv/cv" target="_blank">The page about yourself in encoding markdown</a></li>
+            <li class="content__item"> - <a class="content__link" href="https://koctia.github.io/rsschool-cv/" target="_blank">Personal page of the author</a></li>
+            <li class="content__item"> - <a class="content__link" href="https://rolling-scopes-school.github.io/koctia-JSFEPRESCHOOL2022Q2/travel/" target="_blank">Creating a layout "Travel" (stage 0)</a></li>
+            <li class="content__item"> - <a class="content__link" href="https://rolling-scopes-school.github.io/koctia-JSFEPRESCHOOL2022Q2/momentum/" target="_blank">Creating a layout "Momentum" (stage 0)</a></li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="main__content content" id="courses"> <!-- courses -->
+        <div class="content__name"><span>#</span><h2>Courses</h2></div>
+        <hr class="content__hr-line">
+        <ul class="content__items">
+          <li class="content__item"> - <a class="content__link" href="https://rs.school/js-stage0/" target="_blank">Подготовительный курс «JavaScript/Front-end. Stage 0» (2022)</a></li>
+          <li class="content__item"> - <a class="content__link" href="https://ru.code-basics.com/languages/html" target="_blank">HTML для начинающих</a></li>
+          <li class="content__item"> - <a class="content__link" href="https://ru.code-basics.com/languages/css" target="_blank">CSS для начинающих</a></li>
+          <li class="content__item"> - <a class="content__link" href="https://ru.code-basics.com/languages/javascript" target="_blank">JavaScript для начинающих</a></li>
+        </ul>
+      </section>
+      
+      <section class="main__content content" id="education"> <!-- education -->
+        <div class="content__name"><span>#</span><h2>Education</h2></div>
+        <hr class="content__hr-line">
+        <div class="content__items">
+          <div class="content__item"> <!-- text -->
+            <span></span>
+            <p>Higher technical education</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="main__content content" id="languages"> <!-- languages -->
+        <div class="content__name"><span>#</span><h2>Languages</h2></div>
+        <hr class="content__hr-line">
+        <div class="content__items">
+          <div class="content__item"> <!-- text -->
+            <span></span>
+            <p><b>Russian</b> - Native language</p>
+            <p><b>English</b> - I read with glory (A2 (Elementary English))</p>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="footer"> <!-- footer -->
+      <div class="footer__container">
+        <div class="footer__items">
+          <div class="footer__item">
+            <a class="footer__link" href="https://github.com/koctia" target="_blank"><span class="mdi mdi-github"></span></a>
+          </div>
+          <div class="footer__item">
+            <a class="footer__link" href="https://rs.school/" target="_blank"><img src="./img/rs_school_js.svg" alt="rs.school"></a>
+          </div>
+        </div>
+        <div class="footer__copyright">© 2022 by Moskvin Konstantin</div>
+      </div>
+    </footer>
+
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
