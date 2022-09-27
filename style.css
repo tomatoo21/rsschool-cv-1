@@ -11,9 +11,7 @@
 }
 :focus,:active{outline: none;}
 a:focus,a:active{outline: none;}
-
 header,nav,main,footer,section,aside{display: block;}
-
 html,body{
   height: 100%;
   width: 100%;
@@ -28,7 +26,6 @@ html,body{
   -webkit-text-size-adjust: 100%;
 }
 a,input,button,textarea{font-family:inherit;color:inherit;}
-
 input::-ms-clear{display: none;}
 button{cursor: pointer;}
 button::-moz-focus-inner {padding:0;border:0;}
@@ -36,9 +33,7 @@ a, a:visited{text-decoration: none;}
 a:hover{text-decoration: none;}
 ul, ol, li{list-style: none;}
 img{vertical-align: top;}
-
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
-
 /* -----ROOT   ----------------------------------------------------------------------------------------- */
 :root {
   --main-background-color: #ffffff;
@@ -49,7 +44,6 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
   --light-gray: #e1e1e1;
   --orange: #d6932e;
 }
-
 /* -----WRAPPER----------------------------------------------------------------------------------------- */
 .wrapper {
   min-height: 100%;
@@ -57,7 +51,6 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
   display: flex;
   flex-direction: column;
 }
-
 /* -----TEH-CHAPTER------------------------------------------------------------------------------------- */
 [class*="__container"] {
   max-width: 1024px;
@@ -65,7 +58,6 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
   margin: 0 auto;
   box-sizing: content-box;
 }
-
 /* -----HEADER------------------------------------------------------------------------------------------ */
 .header {
   width: 100%;
@@ -158,7 +150,6 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 .header__image-me img {
   height: 349px;
 }
-
 /* -----MAIN-------------------------------------------------------------------------------------------- */
 .main {
   display: flex;
@@ -168,7 +159,6 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
   top: 0;
   left: 0;
 }
-
 /* -----CONTENT---------------------------------------------------------------------------------------- */
 .main__content {
   margin: 108px 0 0 35px;
@@ -223,7 +213,6 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
   white-space: pre;
   margin: 14px 0;
 }
-
 /* -----FOOTER------------------------------------------------------------------------------------------ */
 .footer {
   width: 100%;
@@ -257,7 +246,6 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
   line-height: 121%;
   text-align: center;
 }
-
 /* -----BURGER------------------------------------------------------------------------------------------ */
 .header__burger {
   display: none;
@@ -311,7 +299,6 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
       transform: rotate(-45deg);
       bottom: 9px;
   }
-
   .header__nav {
       position: fixed;
       top: 0;
@@ -339,7 +326,6 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     margin: 0 0 14px 0;
   }
 }
-
 /* -----MEDIA------------------------------------------------------------------------------------------- */
 @media (max-width:1023.98px){
   .header__image-me img {
